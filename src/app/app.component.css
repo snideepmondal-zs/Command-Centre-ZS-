@@ -3,9 +3,11 @@
 }
  
 .logo {
-    height: 32px;
-    background: rgba(255, 255, 255, 0.2);
-    margin: 16px;
+    height: 30px;
+    margin: 40px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
  
 nz-header {
@@ -25,7 +27,7 @@ nz-content {
 
 .nav-items {
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     padding: 10px 5px;
     margin-bottom: 8px;
     line-height: 1.2;
