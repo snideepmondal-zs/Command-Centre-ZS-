@@ -1,0 +1,49 @@
+<nz-collapse>
+    <nz-collapse-panel [nzHeader]="headerTemplate" [nzActive]="false">
+        <div>
+            <p>hello</p>
+        </div>
+    </nz-collapse-panel>
+</nz-collapse>
+
+<ng-template #headerTemplate>
+    <div style="display: flex; flex-direction: column;">
+        <div style="font-weight: bold;">Portfolio Overview</div>
+        <div style="display: flex; justify-content:space-around;">
+            <div>
+                <app-card></app-card>
+            </div>
+            <div>
+                <div>Health Scores</div>
+                <div>Overall</div>
+                <div>79%</div>
+                <div>Prev. Month: 81%</div>
+            </div>
+            <div>
+                <div>Finance</div>
+                <div>69%</div>
+                <div>Prev. Month: 77%</div>
+            </div>
+            <div>
+                <div>Ops</div>
+                <div>85%</div>
+                <div>Prev. Month: 83%</div>
+            </div>
+            <div>
+                <div>Quality</div>
+                <div>88%</div>
+                <div>Prev. Month: 86%</div>
+            </div>
+            <div>
+                <div>Safety</div>
+                <div>95%</div>
+                <div>Prev. Month: 92%</div>
+            </div>
+            <div>
+                <div>Regulatory</div>
+                <div>57%</div>
+                <div>Prev. Month: 65%</div>
+            </div>
+        </div>
+    </div>
+</ng-template>
