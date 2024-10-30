@@ -12,4 +12,6 @@ import { CardComponent } from '../card/card.component';
   styleUrl: './accordian.component.css'
 })
 export class AccordianComponent {
+  @Input() 
+  data: any;
 }

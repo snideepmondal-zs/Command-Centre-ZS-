@@ -8,10 +8,10 @@
 
 <ng-template #headerTemplate>
     <div style="display: flex; flex-direction: column;">
-        <div style="font-weight: bold;">Portfolio Overview</div>
+        <div style="font-weight: bold;">{{data.title}}</div>
         <div style="display: flex; justify-content:space-around;">
             <div>
-                <app-card></app-card>
+                <app-card [value]="data.alert"></app-card>
             </div>
             <div>
                 <div>Health Scores</div>

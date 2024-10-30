@@ -1,7 +1,5 @@
-<nz-card style="width: 300px" class="asset-card">
-    <p>
-        <strong>Regulatory dropped to 57% overall</strong>, signaling compliance
-        risks. Monitor <strong>Respiratory / Immunology</strong>, which is also
-        showing declines.
-    </p>
-</nz-card>
+<ng-container *ngIf="value">
+    <nz-card style="width: 300px" class="asset-card">
+        <p>{{ value.message }}</p>
+    </nz-card>
+</ng-container>
