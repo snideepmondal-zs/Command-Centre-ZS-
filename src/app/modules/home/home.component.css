@@ -30,3 +30,7 @@ nz-content {
     background: #fff;
     min-height: 120px;
 }
+
+.accordion-margin {
+    margin: 20px;
+}
